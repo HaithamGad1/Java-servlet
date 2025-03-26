@@ -1,0 +1,36 @@
+/* أنماط مخصصة */
+body {
+    background-color: #f8f9fa;
+    padding-top: 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.article-card {
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.article-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.article-meta {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.btn-action {
+    margin-right: 5px;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    margin-top: 40px;
+}
